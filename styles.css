@@ -11,7 +11,7 @@
   }
   
   body {
-    background-color: rgb(80, 223, 230);
+    background-color: rgb(117, 225, 231);
     position: relative;
     min-height: 100vh;
     padding: 0;
@@ -34,7 +34,7 @@
     align-items: center;
     text-align: center;
   
-    background-color: var(--cg-black);
+    background-color: rgb(0, 0, 0);
     color: var(--cg-white);
     padding: 0px 0px;
   
@@ -118,13 +118,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 250px;
-    margin: 20px;
-    padding: 20px
+    width: 700px;
+    margin: 10px;
   }
-  .scenery{
-    height: 600px;
-    width:600px
+  .hack4impactphoto{
+    border: 12px solid white;
+    height: 550px;
+    width: 1300px
 
   }
   
@@ -132,10 +132,11 @@
     /* border: 2px solid black; */
   
   .project-details {
+    font-size: 14px;
     display: flex;
     background-color: var(--cg-white);
-    width: 30%;
-    height: 350px;
+    width: 40%;
+    height: 200px;
     flex-shrink: 1;
     padding: 0 20px;
     margin: 0px;
@@ -168,7 +169,7 @@
   
   .project-name {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 24px;
   }
   
   /* CSS for home page */
@@ -221,8 +222,10 @@
 
 .resume {
     padding: 20px;
+    font-size: 15.5px;
     background-color: #f8f8f8;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: monospace;
+    margin: 20px;
 }
 .section-title{
     padding: 10px;
@@ -272,12 +275,16 @@
   }
 
   .for-contact {
+    display:flex;
+    justify-content: center;
+    text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 18px;
     background-color: white;
-    margin: 10px;
+    margin: 15px;
     padding: 30px;
+    ;
   }
   
   span {
@@ -300,24 +307,20 @@
   p {
     margin: 1px 5px 10px 20px;
   }
-  div {
-    border-width: 1px;
-    border-style: solid;
-    border-color: #000;
-  }
-  
-  div {
-    border: 1px solid #000;
-  }
-  
-  div {
+
+  .border {
     border-top: 1px solid #000;
-    border-left: 0px solid #fff;
-    border-right: 0px solid #fff
+    border-bottom:1px solid black;
+    padding: 10px;
   }
 
   /* CSS for Blog */
   .dogblog{
     width: 500px;
     height: 500px;
+  }
+ 
+  .index{
+    margin-top: 20px;
+    font-size: 32px;
   }
