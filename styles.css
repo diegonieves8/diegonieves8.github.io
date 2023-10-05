@@ -118,19 +118,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
+    width: 250px;
     margin: 20px;
     padding: 20px
+  }
+  .scenery{
+    height: 600px;
+    width:600px
+
+  }
   
     /* Debug border */
     /* border: 2px solid black; */
-  }
   
   .project-details {
     display: flex;
     background-color: var(--cg-white);
     width: 30%;
-    height: 500px;
+    height: 350px;
     flex-shrink: 1;
     padding: 0 20px;
     margin: 0px;
@@ -309,4 +314,10 @@
     border-top: 1px solid #000;
     border-left: 0px solid #fff;
     border-right: 0px solid #fff
+  }
+
+  /* CSS for Blog */
+  .dogblog{
+    width: 500px;
+    height: 500px;
   }
